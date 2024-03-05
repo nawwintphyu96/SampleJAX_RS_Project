@@ -14,8 +14,8 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+import order.iservice.IOrderApplicationService;
 import order.model.Order;
-import order.service.IOrderApplicationService;
 import order.service.OrderApplicationService;
 
 @Path("orders")
